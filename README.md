@@ -46,8 +46,12 @@ asm file.asm
 
 1. If you want to use the debugger (gdb), you can specify custom breakpoints and other arguments. 
 
-2. To see the value of a memory location in RAM, use the command `x/x $memorylocation`, for example: `x/x 0x4020d4`. 
+2. To see the value of a memory location in RAM, use the command `x/x $memorylocation`,
+    example: `x/x 0x4020d4`. 
 
-3. To manually see the value of a register, use the command `info registers <register>` or `i r <register>`, for example: `info registers eax` or `i r eax`.
+3. To manually see the value of a register, use the command `info registers <register>` or `i r <register>`,
+    example: `info registers eax` or `i r eax`.
+
+4. To exit type `exit` and then `y`.
 
 For more information about debuger u can see gdb help page or ask `chat.openai.com/chat`
