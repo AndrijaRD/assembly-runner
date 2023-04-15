@@ -29,17 +29,17 @@ To use `assembly-runner`:
 ### Optional: Create an alias
 
 If you want to make the `asm` script executable from anywhere, you can create an alias by running the following commands:
-
+```
 echo "alias asm='/opt/assembly-runner/asm'" >> ~/.zshrc
 echo "alias asm='/opt/assembly-runner/asm'" >> ~/.bashrc
 source ~/.zshrc
 source ~/.zshrc
-
+```
 
 Now you can run your assembly program from anywhere:
-
+```
 asm file.asm
-
+```
 ## How it works
 
 `assembly-runner` compiles your assembly program into an object file, then into an executable file. It runs the program and displays the output and return code. 
