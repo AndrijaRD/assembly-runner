@@ -50,4 +50,4 @@ asm file.asm
 
 3. To manually see the value of a register, use the command `info registers <register>` or `i r <register>`, for example: `info registers eax` or `i r eax`.
 
-For more information about debuger u can see gdb help page or ask chat.openai.com/chat
+For more information about debuger u can see gdb help page or ask `chat.openai.com/chat`
