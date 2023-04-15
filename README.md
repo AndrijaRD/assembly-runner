@@ -40,7 +40,7 @@ Now you can run your assembly program from anywhere:
 ```
 asm file.asm
 ```
-## How it works
+## How dose debugger works
 
 `assembly-runner` compiles your assembly program into an object file, then into an executable file. It runs the program and displays the output and return code. 
 
@@ -49,3 +49,5 @@ asm file.asm
 2. To see the value of a memory location in RAM, use the command `x/x $memorylocation`, for example: `x/x 0x4020d4`. 
 
 3. To manually see the value of a register, use the command `info registers <register>` or `i r <register>`, for example: `info registers eax` or `i r eax`.
+
+For more information about debuger u can see gdb help page or ask chat.openai.com/chat
