@@ -33,7 +33,7 @@ If you want to make the `asm` script executable from anywhere, you can create an
 echo "alias asm='/opt/assembly-runner/asm'" >> ~/.zshrc
 echo "alias asm='/opt/assembly-runner/asm'" >> ~/.bashrc
 source ~/.zshrc
-source ~/.zshrc
+source ~/.bashrc
 ```
 
 Now you can run your assembly program from anywhere:
